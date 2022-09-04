@@ -76,15 +76,47 @@ nav > a{
 }
 
 .imagens{
-    justify-content: space-around;
+   
     margin-top: 110px;
     display: flex;
-    flex-flow:wrap ;
-    flex-direction: row;
+    
    margin-bottom: 140px;
    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
+
+@media screen and (max-width:815px) {
+    .imagens{
+        justify-content: space-around;
+        margin-top: 110px;
+        display: flex;
+        flex-flow:wrap ;
+        flex-direction: row;
+       margin-bottom: 140px;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+       
+    }
+}
+@media screen and (max-width:638px) {
+    .marcas{
+        display: flex;
+        flex-direction: column;
+    }
+    .foto-marcas img{
+        margin-top: 40px;
+        width: 330px;
+    }
+}
+
 @media screen and (max-width:500px){
+    .imagens{
+        justify-content: space-around;
+        margin-top: 110px;
+        display: flex;
+        flex-flow:wrap ;
+        flex-direction: row;
+       margin-bottom: 140px;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    }
 
     .marcas{
         display: flex;
