@@ -128,10 +128,10 @@ nav > a{
    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:880px){
     .outdoor{
         display: inline-block;
-         height: 750px;
+         height: 790px;
          justify-content: space-around;
          width: 100%;
          background-color:  rgba(32, 32, 32, 0.795);
